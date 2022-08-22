@@ -5,7 +5,7 @@ function array1DIterateOP2(array, elem) {
       indx = i;
     }
     for (let j = i + 1; j <= i + 1; j++) {
-      if (j % 2 !== 0 && elem === array[j]) {
+      if (elem === array[j]) {
         indx = j;
       }
     }
@@ -13,7 +13,7 @@ function array1DIterateOP2(array, elem) {
   return indx;
 }
 
-const array = [0, 1, 2, 3, 4, 5];s
+const array = [0, 1, 2, 3, 4, 5];
 console.log(array1DIterateOP2(array, 4));
 
 
